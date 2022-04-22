@@ -1,0 +1,508 @@
+.admin-home {
+    &-icon-bottom-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 8px;
+        height: 100vh;
+        padding-left: 8px;
+    }
+
+    &-site-layout {
+        height: 100vh;
+        padding-left: 50px;
+        background: #D9F9F9
+    }
+
+    &-logo-text {
+        margin-left: 5px;
+    }
+
+    &-title-logo {
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    &-title-description {
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #B3B3B3;
+    }
+
+    &-icon {
+
+        font-size: 20px !important;
+        font-weight: 700 !important;
+        line-height: 20px !important;
+        color: black
+    }
+}
+
+.ant-menu-item-selected {
+    background: #F2F7FF;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4484FF;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+    margin: 8 0 8 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 400;
+    transform: scaleY(0.0001);
+    opacity: 0;
+    transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    content: '';
+}
+
+.ant-menu {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.admin-home-icon-bottom-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.ant-menu {
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border-right-width: 0px;
+    color: #333333;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 11px;
+    padding-bottom: 48px;
+}
+
+.avatar-username {
+    position: relative;
+    right: 12px
+}
+
+.sider-above {
+    position: absolute;
+    z-index: 10;
+}
+
+.admin-home-icon-bottom-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88vh;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.admin-home-icon-bottom-item {
+    align-self: flex-end;
+}
+
+.site-layout-background {
+    padding-top: 50px;
+    padding-left: 30px;
+    min-height: 360
+}
+
+.site-layout-title {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    padding-left: 30px;
+}
+
+.site-layout-button-right {
+    background: #4484FF;
+    border-radius: 5px;
+    width: 209px;
+    height: 40px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #4484FF;
+}
+
+.site-layout-title-right {
+    padding-right: 30px;
+}
+
+.site-layout-title-table {
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+thead>tr>th {
+    background: #FFFFFF !important;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.ant-table-tbody>tr>td {
+    height: 40px;
+    padding: 4px;
+}
+
+.edit-out-lined:hover {
+    color: #FFA544;
+}
+
+.delete-out-lined {
+    color: #898989;
+}
+
+.edit-out-lined {
+    float: right;
+    color: #898989;
+}
+
+.delete-out-lined:hover {
+    color: #FF4133;
+}
+
+.site-layout-input {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.columnId {
+    text-align: center;
+}
+
+.modal {
+    &-title {
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        margin-bottom: 3px;
+        margin-top: 14px;
+    }
+
+    &-input {
+        background: #FFFFFF;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 90%;
+        height: 40px;
+    }
+
+    &-button-cancel {
+        width: 172px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid #FF4133;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #FF4133;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    &-button-add-new-user-chat-bot {
+
+        width: 172px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid #4484FF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #4484FF;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    &-button-ok {
+        width: 172px;
+        height: 40px;
+        background: #4484FF;
+        border-radius: 5px;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    &-card {
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+    }
+
+    &-scroll-card {
+        max-height: 200px;
+        overflow-y: auto;
+    }
+}
+
+.ant-card-head-title {
+    border-bottom-width: 0px !important;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4484FF;
+    padding-left: 15px;
+    min-height: auto;
+}
+
+.ant-card-head-title {
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.ant-card-body {
+    padding: 0;
+}
+
+.modal-card-username {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #B3B3B3;
+    position: absolute;
+    bottom: -1%;
+    left: 3.5%;
+}
+
+.modal-card-tags {
+    float: right;
+    padding: 18px 15px;
+
+}
+
+.ant-modal-header {
+    text-align: center;
+    padding: 24px 24px;
+    color: rgba(0, 0, 0, 0.85);
+    background: #fff;
+    border-radius: 2px 2px 0 0;
+    border-bottom: 0px;
+}
+
+.ant-modal-title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 24px !important;
+    line-height: 22px;
+    word-wrap: break-word;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    cursor: text;
+    width: 366px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.chat-bot-modal-select-username .ant-select-selector {
+    cursor: text;
+    width: 420px !important;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.chat-bot-modal-select-role .ant-select-selector {
+    cursor: text;
+    width: 200px !important;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+
+.ant-modal-footer {
+    padding: 10px 16px;
+    text-align: right;
+    background: transparent;
+    border-top: 0px;
+    border-radius: 0 0 2px 2px;
+}
+
+.custom-row-hover:hover td {
+    background: rgba(224, 248, 232, 1) !important;
+}
+
+.chat-bot-modal-add-new {
+    padding: 10px 10px;
+}
+
+.chat-bot-modal-edit {
+    padding: 10px 10px;
+}
+
+.chat-bot-modal-add-new-container {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-right: 210px;
+}
+
+.setting-collapse-container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.155);
+    border-radius: 5px;
+}
+
+.setting-container {
+    padding: 70px 50px 0px 50px
+}
+
+.setting-container-change-password {
+    padding: 30px 50px 0px 50px
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    display: grid !important;
+}
+
+.setting-collapse-row-header {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.setting-collapse-row {
+    padding-left: 8px;
+}
+
+.setting-collapse-input-name {
+    padding-bottom: 50px;
+}
+
+.setting-collapse-input-name-input {
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+ 
+
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+    height: 47px;
+    width: 80px;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-height: 40px;
+    font-size: 19px;
+    margin: 5px;
+    font-family: 'Noto Sans JP';
+font-style: normal;
+}
+
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector::after, .ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item, .ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+   line-height: 35px; 
+}
+
+.setting-collapse-input-date {
+    padding-bottom: 30px;
+}
+
+.setting-collapse-input-email {
+    padding: 5px 0px 20px 0px;
+}
+
+.setting-collapse-input-password {
+    padding: 1px 0px 10px 0px;
+}
+
+.setting-collapse-active-email {
+    color: #45D313;
+    padding: 5px  9px;
+    font-weight: bold;
+}
+
+.setting-collapse-input-password-text {
+    padding-left: 50px;
+    font-weight: bold;
+}
